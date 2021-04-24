@@ -28,7 +28,7 @@ jobs:
         # See supported Node.js release schedule at https://nodejs.org/en/about/releases
     steps:
       - uses: actions/checkout@v2
-      - uses: actions/download-artifact@vmain
+      - uses: actions/download-artifact@main
         with:
           name: webpack artifacts
           path: public
